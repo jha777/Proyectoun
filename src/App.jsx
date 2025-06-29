@@ -184,6 +184,16 @@ export default function App() {
           <meta property="og:image" content="/images/logo.png" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://tukuexpress.shop" />
+          {/* 👇 Google Analytics (reemplaza G-XXXXXXXXXX con tu ID real) */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-MD0NE760TV"></script>
+          <script>
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-MD0NE760TV');
+            `}
+          </script>
         </Helmet>
         <div className="container mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center">
           <div className="flex items-center space-x-4">
