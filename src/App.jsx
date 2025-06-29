@@ -272,8 +272,18 @@ export default function App() {
       </main>
       
       {/* --- Footer --- */}
-      <footer className="fixed bottom-0 left-0 w-full bg-white border-t text-center py-4 z-40 shadow">
-          <p className="text-gray-500 text-sm">&copy; {new Date().getFullYear()} TukuExpress por JEFFTECH. Todos los derechos reservados.</p>
+      <footer className="fixed bottom-0 left-0 w-full bg-black text-white text-center py-4 z-40 shadow-md">
+        <p className="text-sm">
+          &copy; {new Date().getFullYear()} TukuExpress por{' '}
+          <a
+            href="https://jefftech.store"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-indigo-200 font-semibold"
+          >
+            JEFFTECH
+          </a>. Todos los derechos reservados.
+        </p>
       </footer>
 
       {/* --- Modal --- */}
