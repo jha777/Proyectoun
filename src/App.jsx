@@ -173,11 +173,17 @@ export default function App() {
       {/* --- Encabezado --- */}
       <header className="bg-white shadow-sm sticky top-0 z-10">
         <div className="container mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center">
-          <div className="flex flex-col items-center text-center sm:items-start sm:text-left">
-            <h1 className="text-3xl font-bold text-gray-800">
-              Tuku<span className="text-indigo-600">Express</span>
-            </h1>
-            <p className="text-gray-500 mt-1">La vitrina de los emprendimientos de Colombia</p>
+          <div className="flex items-center space-x-4">
+            {/* Logo rectangular */}
+            <img
+              src="./images/logo.png" 
+              alt="Logo" 
+              className="h-10 w-auto object-contain"
+            />
+            {/* Subtítulo */}
+            <p className="text-sm sm:text-base text-gray-600 font-medium">
+              La vitrina de los emprendimientos de Colombia
+            </p>
           </div>
     
           <a
