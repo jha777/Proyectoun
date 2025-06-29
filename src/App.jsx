@@ -16,12 +16,12 @@ const mockBusinesses = [
   },
   {
     id: 2,
-    name: 'Moda Urbana Cali',
+    name: 'Fabrica de Gorras VC Caps',
     category: 'Tiendas de Ropa',
     city: 'Medellín',
-    logoUrl: 'https://placehold.co/400x300/8E24AA/FFFFFF?text=Moda',
-    description: 'Las últimas tendencias en ropa urbana para hombres y mujeres. Diseños exclusivos y calidad que se siente. ¡Viste con estilo, viste con orgullo local!',
-    websiteUrl: '#',
+    logoUrl: '/images/negocios/logovccaps.png',
+    description: 'Descubre nuestra increíble colección de gorras. Diseños exclusivos, fabricación propia y ventas al por menor y mayor. ¡Tu estilo, nuestra pasión!',
+    websiteUrl: 'https://www.fabricadegorrasvc.com/',
   },
   {
     id: 3,
