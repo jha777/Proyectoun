@@ -182,7 +182,7 @@ export default function App() {
             />
             {/* Subtítulo */}
             <p className="text-sm sm:text-base text-gray-600 font-medium">
-              La vitrina de los emprendimientos de Colombia
+              La Vitrina Digital de los emprendimientos de Colombia
             </p>
           </div>
     
