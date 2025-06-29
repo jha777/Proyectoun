@@ -176,7 +176,7 @@ export default function App() {
           <div className="flex items-center space-x-4">
             {/* Logo rectangular */}
             <img
-              src="./images/logo.png" 
+              src="/images/logo.png" 
               alt="Logo" 
               className="h-10 w-auto object-contain"
             />
