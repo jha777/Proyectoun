@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Search, Store, Coffee, Shirt, Wrench, Sparkles, X, ArrowUpRight } from 'lucide-react';
 
-const cities = ['Todas', 'Bogotá', 'Medellín', 'Cali', 'Barranquilla'];
+const cities = ['Todas', 'Florida', 'Cali', 'Miranda', 'Medellín', 'Palmira', 'Candelaria', 'Villagorgona',];
 // --- MOCK DATA: Simula los negocios que obtendrías de tu base de datos ---
 const mockBusinesses = [
   {
@@ -25,10 +25,10 @@ const mockBusinesses = [
   },
   {
     id: 3,
-    name: 'Soluciones Digitales JEFFTECH',
+    name: 'JEFFTECH - Diseño Web',
     category: 'Servicios',
-    city: 'Bogotá',
-    logoUrl: 'https://placehold.co/400x300/1E88E5/FFFFFF?text=JEFFTECH',
+    city: 'Florida',
+    logoUrl: '/images/negocios/logojefftech.png',
     description: 'Tu socio estratégico para la transformación digital. Creamos páginas web, tiendas online y soluciones de software a medida para que tu negocio crezca en el mundo digital.',
     websiteUrl: 'https://jefftech.store/',
   },
@@ -36,7 +36,7 @@ const mockBusinesses = [
     id: 4,
     name: 'Sabor a Leña Pizzería',
     category: 'Restaurantes',
-    city: 'Barranquilla',
+    city: 'Candelaria',
     logoUrl: 'https://placehold.co/400x300/E53935/FFFFFF?text=Pizza',
     description: 'La auténtica pizza artesanal cocinada en horno de leña. Ingredientes frescos y una masa que te transportará a Italia. Perfecta para compartir en familia o con amigos.',
     websiteUrl: '#',
@@ -45,7 +45,7 @@ const mockBusinesses = [
     id: 5,
     name: 'ArteSano Manualidades',
     category: 'Artesanías',
-    city: 'Bogotá',
+    city: 'Florida',
     logoUrl: 'https://placehold.co/400x300/00897B/FFFFFF?text=ArteSano',
     description: 'Decoración y regalos únicos hechos a mano por artesanos colombianos. Cada pieza cuenta una historia y lleva la esencia de nuestra cultura.',
     websiteUrl: '#',
@@ -54,7 +54,7 @@ const mockBusinesses = [
     id: 6,
     name: 'Estilo Clásico Barbería',
     category: 'Servicios',
-    city: 'Barranquilla',
+    city: 'Medellin',
     logoUrl: 'https://placehold.co/400x300/546E7A/FFFFFF?text=Barber',
     description: 'Más que un corte de cabello, una experiencia. Expertos barberos dedicados al cuidado masculino en un ambiente clásico y relajado.',
     websiteUrl: '#',
@@ -63,7 +63,7 @@ const mockBusinesses = [
     id: 7,
     name: 'Chiqui Ropa Infantil',
     category: 'Tiendas de Ropa',
-    city: 'Cali',
+    city: 'Villagorgona',
     logoUrl: 'https://placehold.co/400x300/FDD835/000000?text=Chiqui',
     description: 'Ropa cómoda, divertida y duradera para los más pequeños de la casa. Diseños alegres para acompañar sus aventuras diarias.',
     websiteUrl: '#',
@@ -72,7 +72,7 @@ const mockBusinesses = [
     id: 8,
     name: 'El Rincón del Postre',
     category: 'Restaurantes',
-    city: 'Bogotá',
+    city: 'Cali',
     logoUrl: 'https://placehold.co/400x300/D81B60/FFFFFF?text=Postre',
     description: 'Endulza tu día con nuestra selección de postres caseros. Tortas, galletas y bebidas frías preparadas con amor y los mejores ingredientes.',
     websiteUrl: '#',
