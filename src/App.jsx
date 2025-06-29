@@ -200,12 +200,12 @@ export default function App() {
           </div>
     
           <a
-            href="https://tuenlace.com" // ← cambia esto por la URL que desees
+            href="https://wa.me/573001112233?text=Hola,%20me%20interesa%20publicar%20mi%20emprendimiento%20en%20TukuExpress"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-2 sm:mt-0 bg-indigo-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-indigo-700 transition-colors"
           >
-            Ir al portal
+            Publicar Mi Negocio
           </a>
         </div>
       </header>
