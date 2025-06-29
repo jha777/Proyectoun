@@ -109,7 +109,7 @@ const BusinessModal = ({ business, onClose }) => {
     <div className="fixed inset-0 bg-black bg-opacity-60 z-50 flex justify-center items-center p-4">
       <div className="bg-white rounded-2xl shadow-2xl w-full max-w-lg mx-auto transform transition-all duration-300 scale-95 hover:scale-100">
         <div className="relative">
-          <img className="h-60 w-full object-cover rounded-t-2xl" src={business.logoUrl} alt={`Logo de ${business.name}`} />
+          <img className="h-auto w-full object-cover rounded-t-2xl" src={business.logoUrl} alt={`Logo de ${business.name}`} />
           <button 
             onClick={onClose} 
             className="absolute top-4 right-4 bg-white/70 rounded-full p-2 text-gray-700 hover:bg-white hover:text-black transition-all"
