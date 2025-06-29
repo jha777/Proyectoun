@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Search, Store, Coffee, Shirt, Wrench, Sparkles, X, ArrowUpRight } from 'lucide-react';
 
 const cities = ['Todas', 'Bogotá', 'Medellín', 'Cali', 'Barranquilla'];
@@ -172,6 +173,18 @@ export default function App() {
     <div className="bg-gray-50 min-h-screen font-sans flex flex-col">
       {/* --- Encabezado --- */}
       <header className="bg-white shadow-sm sticky top-0 z-10">
+        <Helmet>
+          <title>TukuExpress - La Vitrina Digital de los Emprendimientos de Colombia</title>
+          <link rel="icon" href="/favicon.png" type="image/png" />
+          <meta name="description" content="Descubre emprendimientos en Colombia por ciudad y categoría. TukuExpress es la vitrina digital de los negocios locales." />
+          <meta name="keywords" content="emprendimientos, Colombia, negocios locales, pymes, tukuexpress, JEFFTECH" />
+          <meta name="author" content="JEFFTECH" />
+          <meta property="og:title" content="TukuExpress" />
+          <meta property="og:description" content="Conoce los mejores emprendimientos de Colombia. Apoya el talento local en un solo lugar." />
+          <meta property="og:image" content="/images/logo.png" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://tukuexpress.shop" />
+        </Helmet>
         <div className="container mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center">
           <div className="flex items-center space-x-4">
             {/* Logo rectangular */}
