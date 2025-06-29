@@ -126,7 +126,7 @@ const BusinessModal = ({ business, onClose }) => {
             href={business.websiteUrl} 
             target="_blank" 
             rel="noopener noreferrer"
-            className="w-full bg-indigo-600 text-white font-bold py-3 px-6 rounded-lg flex items-center justify-center hover:bg-indigo-700 transition-colors duration-300 focus:outline-none focus:ring-4 focus:ring-indigo-300"
+            className="w-full bg-blue-700 text-white font-bold py-3 px-6 rounded-lg flex items-center justify-center hover:bg-indigo-700 transition-colors duration-300 focus:outline-none focus:ring-4 focus:ring-indigo-300"
           >
             Visitar Sitio Web
             <ArrowUpRight size={20} className="ml-2" />
@@ -203,7 +203,7 @@ export default function App() {
             href="https://wa.me/573225212078?text=Hola,%20me%20interesa%20publicar%20mi%20emprendimiento%20en%20TukuExpress"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-2 sm:mt-0 bg-indigo-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-indigo-700 transition-colors"
+            className="mt-2 sm:mt-0 bg-blue-700 text-white px-4 py-2 rounded-lg font-semibold hover:bg-indigo-700 transition-colors"
           >
             Publicar Mi Negocio
           </a>
@@ -255,7 +255,7 @@ export default function App() {
                 onClick={() => setSelectedCategory(category.name)}
                 className={`flex items-center px-4 py-2 text-sm font-semibold rounded-full transition-colors duration-200 ${
                   selectedCategory === category.name 
-                  ? 'bg-indigo-600 text-white shadow' 
+                  ? 'bg-blue-700 text-white shadow' 
                   : 'bg-white text-gray-700 hover:bg-gray-200'
                 }`}
               >
