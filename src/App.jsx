@@ -1,6 +1,10 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Search, Store, Coffee, Shirt, Wrench, Sparkles, X, ArrowUpRight } from 'lucide-react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/autoplay';
+import { Autoplay } from 'swiper/modules';
 
 const cities = ['Todas', 'Florida', 'Cali', 'Miranda', 'Medellín', 'Palmira', 'Candelaria', 'Villagorgona',];
 // --- MOCK DATA: Simula los negocios que obtendrías de tu base de datos ---
@@ -184,7 +188,7 @@ export default function App() {
           <meta property="og:image" content="/images/logo.png" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://tukuexpress.shop" />
-          {/* 👇 Google Analytics (reemplaza G-XXXXXXXXXX con tu ID real) */}
+          {/* 👇 Google Analytics */}
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-MD0NE760TV"></script>
           <script>
             {`
@@ -219,6 +223,28 @@ export default function App() {
           </a>
         </div>
       </header>
+
+      <Swiper
+        modules={[Autoplay]}
+        autoplay={{ delay: 4000 }}
+        loop
+        className="w-full aspect-[3/1] sm:aspect-[4/1] md:aspect-[5/1] lg:aspect-[6/1] xl:aspect-[7/1] rounded-xl overflow-hidden"
+      >
+        <SwiperSlide>
+          <a
+            href="https://wa.me/573225212078?text=Hola,%20me%20interesa%20publicar%20mi%20emprendimiento%20en%20TukuExpress"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/images/bannertukuuno.png" // Usa aquí la imagen que subiste o coloca tu propia ruta
+              alt="Publica tu negocio en este espacio"
+              className="w-full h-auto object-cover"
+            />
+          </a>
+        </SwiperSlide>
+        {/* Puedes duplicar este bloque para más banners */}
+      </Swiper>
 
       {/* --- Contenido Principal --- */}
       <main className="container mx-auto p-4 md:p-8 flex-1 pb-24">
