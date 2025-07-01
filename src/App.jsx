@@ -11,12 +11,12 @@ const cities = ['Todas', 'Florida', 'Cali', 'Miranda', 'Medellín', 'Palmira', '
 const mockBusinesses = [
   {
     id: 1,
-    name: 'Café de la Finca',
-    category: 'Restaurantes',
+    name: 'KAMPFER Streaming',
+    category: 'Servicios',
     city: 'Cali',
-    logoUrl: 'https://placehold.co/400x300/A1887F/FFFFFF?text=Café',
-    description: 'Un café de especialidad que trae los mejores granos de las montañas del Valle del Cauca directamente a tu taza. Disfruta de un ambiente tranquilo y un sabor inigualable.',
-    websiteUrl: '#',
+    logoUrl: '/images/negocios/kampferuno.png',
+    description: 'KAMPFER Streaming te conecta con tus plataformas favoritas de forma segura, económica y sin complicaciones. Suscripciones 100% estables, soporte personalizado y acceso inmediato al mejor entretenimiento.',
+    websiteUrl: 'https://kampferstreaming.shop/',
   },
   {
     id: 2,
