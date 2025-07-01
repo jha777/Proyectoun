@@ -228,7 +228,8 @@ export default function App() {
         modules={[Autoplay]}
         autoplay={{ delay: 4000 }}
         loop
-        className="w-full aspect-[3/1] sm:aspect-[4/1] md:aspect-[5/1] lg:aspect-[6/1] xl:aspect-[7/1] rounded-xl overflow-hidden"
+        className="w-full rounded-xl overflow-hidden
+             aspect-[2/1] sm:aspect-[2.5/1] md:aspect-[3/1] lg:aspect-[3/1] xl:aspect-[3/1]"
       >
         <SwiperSlide>
           <a
