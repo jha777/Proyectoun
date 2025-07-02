@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { Search, Store, Coffee, Shirt, Wrench, Sparkles, X, ArrowUpRight } from 'lucide-react';
+import { Search, Store, Coffee, Shirt, Wrench, Sparkles, Car, HeartPulse, GraduationCap, Music, Camera, BookOpen, Plane, Dumbbell, X, ArrowUpRight } from 'lucide-react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
@@ -12,7 +12,7 @@ const mockBusinesses = [
   {
     id: 1,
     name: 'KAMPFER Streaming',
-    category: 'Servicios',
+    category: 'Entretenimiento',
     city: 'Cali',
     logoUrl: '/images/negocios/kampferuno.png',
     description: 'KAMPFER Streaming te conecta con tus plataformas favoritas de forma segura, económica y sin complicaciones. Suscripciones 100% estables, soporte personalizado y acceso inmediato al mejor entretenimiento.',
@@ -89,6 +89,14 @@ const categories = [
   { name: 'Tiendas de Ropa', icon: Shirt },
   { name: 'Servicios', icon: Wrench },
   { name: 'Artesanías', icon: Sparkles },
+  { name: 'Automotriz', icon: Car },
+  { name: 'Salud y Belleza', icon: HeartPulse },
+  { name: 'Educación', icon: GraduationCap },
+  { name: 'Entretenimiento', icon: Music },
+  { name: 'Fotografía', icon: Camera },
+  { name: 'Librerías', icon: BookOpen },
+  { name: 'Turismo', icon: Plane },
+  { name: 'Gimnasios', icon: Dumbbell },
 ];
 
 // --- Componente de Tarjeta de Negocio ---
