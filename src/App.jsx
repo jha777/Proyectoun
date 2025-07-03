@@ -81,6 +81,42 @@ const mockBusinesses = [
     description: 'Automóvil Club de Colombia Cali: Formamos conductores responsables, ofrecemos servicio de asistencia 24 horas, te asesoramos en trámites de tránsito, prevención vial y emergencias vehiculares 🚗',
     websiteUrl: 'https://acc-cali.com/',
   },
+  {
+    id: 9,
+    name: 'Publica tu Negocio',
+    category: 'Restaurantes',
+    city: 'Florida',
+    logoUrl: '/images/negocios/publicatunegocio.png',
+    description: 'TUKU Express es la WEB donde descubres emprendimientos Colombianos por Ciudad/Categoría y entras directo a sus páginas web.',
+    websiteUrl: 'https://wa.me/573225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
+  },
+  {
+    id: 10,
+    name: 'Publica tu Negocio',
+    category: 'Librerías',
+    city: 'Florida',
+    logoUrl: '/images/negocios/publicatunegocio.png',
+    description: 'TUKU Express es la WEB donde descubres emprendimientos Colombianos por Ciudad/Categoría y entras directo a sus páginas web.',
+    websiteUrl: 'https://wa.me/3225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
+  },
+  {
+    id: 11,
+    name: 'Publica tu Negocio',
+    category: 'Educación',
+    city: 'Florida',
+    logoUrl: '/images/negocios/publicatunegocio.png',
+    description: 'TUKU Express es la WEB donde descubres emprendimientos Colombianos por Ciudad/Categoría y entras directo a sus páginas web.',
+    websiteUrl: 'https://wa.me/3225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
+  },
+  {
+    id: 12,
+    name: 'Publica tu Negocio',
+    category: 'Markets',
+    city: 'Florida',
+    logoUrl: '/images/negocios/publicatunegocio.png',
+    description: 'TUKU Express es la WEB donde descubres emprendimientos Colombianos por Ciudad/Categoría y entras directo a sus páginas web.',
+    websiteUrl: 'https://wa.me/3225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
+  },
 ];
 
 const categories = [
