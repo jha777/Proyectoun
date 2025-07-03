@@ -74,12 +74,12 @@ const mockBusinesses = [
   },
   {
     id: 8,
-    name: 'El Rincón del Postre',
-    category: 'Restaurantes',
+    name: 'Automóvil Club de Colombia',
+    category: 'Automotriz',
     city: 'Cali',
     logoUrl: '/images/negocios/publicatunegocio.png',
-    description: 'Endulza tu día con nuestra selección de postres caseros. Tortas, galletas y bebidas frías preparadas con amor y los mejores ingredientes.',
-    websiteUrl: 'https://wa.me/573116596456?text=Hola,%20quiero%20publicar%20mi%20Negocio',
+    description: 'Automóvil Club de Colombia Cali: Formamos conductores responsables, ofrecemos servicio de asistencia 24 horas, te asesoramos en trámites de tránsito, prevención vial y emergencias vehiculares 🚗',
+    websiteUrl: 'https://acc-cali.com/',
   },
 ];
 
