@@ -67,7 +67,7 @@ const mockBusinesses = [
     id: 7,
     name: 'Chiqui Ropa Infantil',
     category: 'Tiendas de Ropa',
-    city: 'Villagorgona',
+    city: 'Cali',
     logoUrl: '/images/negocios/publicatunegocio.png',
     description: 'Ropa cómoda, divertida y duradera para los más pequeños de la casa. Diseños alegres para acompañar sus aventuras diarias.',
     websiteUrl: 'https://wa.me/573116596456?text=Hola,%20quiero%20publicar%20mi%20Negocio',
