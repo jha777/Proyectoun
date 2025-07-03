@@ -169,7 +169,7 @@ const BusinessModal = ({ business, onClose }) => {
           <img className="h-auto w-full object-cover rounded-t-2xl" src={business.logoUrl} alt={`Logo de ${business.name}`} />
           <button 
             onClick={onClose} 
-            className="absolute top-4 right-4 bg-white/70 rounded-full p-2 text-gray-700 hover:bg-white hover:text-black transition-all"
+            className="absolute top-4 right-4 bg-blue-700 rounded-full p-2 text-white hover:bg-white hover:text-black transition-all"
             aria-label="Cerrar modal"
           >
             <X size={20} />
