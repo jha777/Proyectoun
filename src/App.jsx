@@ -38,12 +38,12 @@ const mockBusinesses = [
   },
   {
     id: 4,
-    name: 'Sabor a Leña Pizzería',
-    category: 'Restaurantes',
-    city: 'Candelaria',
-    logoUrl: '/images/negocios/publicatunegocio.png',
-    description: 'La auténtica pizza artesanal cocinada en horno de leña. Ingredientes frescos y una masa que te transportará a Italia. Perfecta para compartir en familia o con amigos.',
-    websiteUrl: 'https://wa.me/573116596456?text=Hola,%20quiero%20publicar%20mi%20Negocio',
+    name: 'Droguería Alemana',
+    category: 'Droguerías',
+    city: 'Medellin',
+    logoUrl: '/images/negocios/drogueriaalemana.png',
+    description: 'Salud | Bienestar | Cuidado - 🕒 24 horas | Pensado en tu salud - 💻 Compra online - 📱 Pide por WhatsApp',
+    websiteUrl: 'https://www.tudrogueriavirtual.com/',
   },
   {
     id: 5,
