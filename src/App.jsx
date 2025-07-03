@@ -117,6 +117,33 @@ const mockBusinesses = [
     description: 'TUKU Express es la WEB donde descubres emprendimientos Colombianos por Ciudad/Categoría y entras directo a sus páginas web.',
     websiteUrl: 'https://wa.me/3225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
   },
+  {
+    id: 13,
+    name: 'Publica tu Negocio',
+    category: 'Restaurantes',
+    city: 'Florida',
+    logoUrl: '/images/negocios/publicatunegocio.png',
+    description: 'TUKU Express es la WEB donde descubres emprendimientos Colombianos por Ciudad/Categoría y entras directo a sus páginas web.',
+    websiteUrl: 'https://wa.me/3225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
+  },
+  {
+    id: 14,
+    name: 'Publica tu Negocio',
+    category: 'Tecnología',
+    city: 'Florida',
+    logoUrl: '/images/negocios/publicatunegocio.png',
+    description: 'TUKU Express es la WEB donde descubres emprendimientos Colombianos por Ciudad/Categoría y entras directo a sus páginas web.',
+    websiteUrl: 'https://wa.me/3225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
+  },
+  {
+    id: 15,
+    name: 'Publica tu Negocio',
+    category: 'Salud y Belleza',
+    city: 'Florida',
+    logoUrl: '/images/negocios/publicatunegocio.png',
+    description: 'TUKU Express es la WEB donde descubres emprendimientos Colombianos por Ciudad/Categoría y entras directo a sus páginas web.',
+    websiteUrl: 'https://wa.me/3225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
+  },
 ];
 
 const categories = [
