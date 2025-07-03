@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { Search, Store, Coffee, Shirt, Wrench, Sparkles, Car, HeartPulse, GraduationCap, Music, Camera, BookOpen, Plane, Dumbbell, X, ArrowUpRight } from 'lucide-react';
+import { Search, Store, Coffee, Shirt, Wrench, Sparkles, Car, HeartPulse, GraduationCap, Music, Camera, BookOpen, Plane, Dumbbell, Flower, Building2, BedDouble, Bus, X, ArrowUpRight } from 'lucide-react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
@@ -89,13 +89,17 @@ const categories = [
   { name: 'Tiendas de Ropa', icon: Shirt },
   { name: 'Servicios', icon: Wrench },
   { name: 'Artesanías', icon: Sparkles },
-  { name: 'Automotriz', icon: Car },
+  { name: 'Turismo', icon: Plane },
+  { name: 'Hoteles', icon: BedDouble },
   { name: 'Salud y Belleza', icon: HeartPulse },
+  { name: 'Spa', icon: Flower },
+  { name: 'Automotriz', icon: Car },
+  { name: 'Transporte', icon: Bus },
+  { name: 'Inmobiliarias', icon: Building2 },
   { name: 'Educación', icon: GraduationCap },
+  { name: 'Librerías', icon: BookOpen },
   { name: 'Entretenimiento', icon: Music },
   { name: 'Fotografía', icon: Camera },
-  { name: 'Librerías', icon: BookOpen },
-  { name: 'Turismo', icon: Plane },
   { name: 'Gimnasios', icon: Dumbbell },
 ];
 
