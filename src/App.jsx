@@ -47,12 +47,12 @@ const mockBusinesses = [
   },
   {
     id: 5,
-    name: 'ArteSano Manualidades',
-    category: 'Artesanías',
-    city: 'Florida',
-    logoUrl: '/images/negocios/publicatunegocio.png',
-    description: 'Decoración y regalos únicos hechos a mano por artesanos colombianos. Cada pieza cuenta una historia y lleva la esencia de nuestra cultura.',
-    websiteUrl: 'https://wa.me/573116596456?text=Hola,%20quiero%20publicar%20mi%20Negocio',
+    name: 'WohlPet - Club y Tienda Virtual para Mascotas.',
+    category: 'Mascotas',
+    city: 'Cali',
+    logoUrl: '/images/negocios/wolhpet.png',
+    description: 'Encuentra en WohlPet, alimento para perro, alimento para gato, arena para gatos, juguetes, productos antipulgas.',
+    websiteUrl: 'https://www.wohlpet.com/',
   },
   {
     id: 6,
