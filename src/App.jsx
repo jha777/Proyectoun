@@ -77,7 +77,7 @@ const mockBusinesses = [
     name: 'Automóvil Club de Colombia',
     category: 'Automotriz',
     city: 'Cali',
-    logoUrl: '/images/negocios/publicatunegocio.png',
+    logoUrl: '/images/negocios/automovilclub.png',
     description: 'Automóvil Club de Colombia Cali: Formamos conductores responsables, ofrecemos servicio de asistencia 24 horas, te asesoramos en trámites de tránsito, prevención vial y emergencias vehiculares 🚗',
     websiteUrl: 'https://acc-cali.com/',
   },
