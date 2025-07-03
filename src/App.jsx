@@ -92,12 +92,12 @@ const mockBusinesses = [
   },
   {
     id: 10,
-    name: 'Publica tu Negocio',
-    category: 'Librerías',
-    city: 'Florida',
-    logoUrl: '/images/negocios/publicatunegocio.png',
-    description: 'TUKU Express es la WEB donde descubres emprendimientos Colombianos por Ciudad/Categoría y entras directo a sus páginas web.',
-    websiteUrl: 'https://wa.me/3225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
+    name: 'Lucho Perfumería',
+    category: 'Salud y Belleza',
+    city: 'Bucaramanga',
+    logoUrl: '/images/negocios/luchoperfumeria.png',
+    description: 'Lucho Perfumería es tu destino en Bucaramanga para encontrar las mejores fragancias.',
+    websiteUrl: 'https://luchoperfumeria.com.co/',
   },
   {
     id: 11,
