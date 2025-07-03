@@ -56,12 +56,12 @@ const mockBusinesses = [
   },
   {
     id: 6,
-    name: 'Estilo Clásico Barbería',
-    category: 'Servicios',
+    name: 'Meik',
+    category: 'Salud y Belleza',
     city: 'Medellin',
-    logoUrl: '/images/negocios/publicatunegocio.png',
-    description: 'Más que un corte de cabello, una experiencia. Expertos barberos dedicados al cuidado masculino en un ambiente clásico y relajado.',
-    websiteUrl: 'https://wa.me/573116596456?text=Hola,%20quiero%20publicar%20mi%20Negocio',
+    logoUrl: '/images/negocios/meik.png',
+    description: 'Maquillaje Dermatológico con protección solar SPF15. Salud y protección para tu piel.',
+    websiteUrl: 'https://meik.com.co/',
   },
     {
     id: 7,
@@ -115,7 +115,8 @@ const BusinessCard = ({ business, onSelect }) => (
     <img className="h-auto w-full object-cover" src={business.logoUrl} alt={`Logo de ${business.name}`} />
     <div className="p-5">
       <h3 className="text-lg font-bold text-gray-800">{business.name}</h3>
-      <p className="text-sm font-semibold text-indigo-600">{business.category}</p>
+      <p className="text-sm font-semibold text-blue-600">{business.category}</p>
+      <p className="text-sm font-normal text-black">{business.city}</p>
     </div>
   </div>
 );
