@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { Search, Store, Coffee, Shirt, Wrench, Sparkles, Car, HeartPulse, GraduationCap, Music, Camera, BookOpen, Plane, Dumbbell, Flower, Building2, BedDouble, Bus, ShoppingCart, Croissant, Pill, PawPrint, Box, Laptop, Sandwich, X, ArrowUpRight } from 'lucide-react';
+import { Search, Store, Coffee, Shirt, Wrench, Sparkles, Car, HeartPulse, GraduationCap, Music, Camera, BookOpen, Plane, Dumbbell, Flower, Building2, BedDouble, Bus, ShoppingCart, Croissant, Pill, PawPrint, Box, Laptop, Utensils, X, ArrowUpRight } from 'lucide-react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
@@ -121,7 +121,7 @@ const mockBusinesses = [
 
 const categories = [
   { name: 'Todos', icon: Store },
-  { name: 'Restaurantes', icon: Sandwich },
+  { name: 'Restaurantes', icon: Utensils },
   { name: 'Panaderías', icon: Croissant },
   { name: 'Tiendas de Ropa', icon: Shirt },
   { name: 'Servicios', icon: Wrench },
