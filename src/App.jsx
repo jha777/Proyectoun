@@ -6,7 +6,7 @@ import 'swiper/css';
 import 'swiper/css/autoplay';
 import { Autoplay } from 'swiper/modules';
 
-const cities = ['Todas', 'Florida', 'Cali', 'Miranda', 'Medellín', 'Palmira', 'Candelaria', 'Villagorgona',];
+const cities = ['Todas', 'Florida', 'Cali', 'Miranda', 'Medellín', 'Palmira', 'Candelaria', 'Villagorgona', 'Bucaramanga',];
 // --- MOCK DATA: Simula los negocios que obtendrías de tu base de datos ---
 const mockBusinesses = [
   {
@@ -65,12 +65,12 @@ const mockBusinesses = [
   },
     {
     id: 7,
-    name: 'Chiqui Ropa Infantil',
+    name: 'PAULA VELEZ',
     category: 'Tiendas de Ropa',
-    city: 'Cali',
-    logoUrl: '/images/negocios/publicatunegocio.png',
-    description: 'Ropa cómoda, divertida y duradera para los más pequeños de la casa. Diseños alegres para acompañar sus aventuras diarias.',
-    websiteUrl: 'https://wa.me/573116596456?text=Hola,%20quiero%20publicar%20mi%20Negocio',
+    city: 'Bucaramanga',
+    logoUrl: '/images/negocios/paulavelez.png',
+    description: '¿Sabias que manejamos los tenis más lindos en cuero?😻 más de 20.000 clientes felices en todo el mundo.',
+    websiteUrl: 'https://paulavelez.com.co/',
   },
   {
     id: 8,
