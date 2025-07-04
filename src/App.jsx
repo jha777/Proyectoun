@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { Search, Store, Coffee, Shirt, Wrench, Sparkles, Car, HeartPulse, GraduationCap, Music, Camera, BookOpen, Plane, Dumbbell, Flower, Building2, BedDouble, Bus, ShoppingCart, Croissant, Pill, PawPrint, Box, Laptop, Utensils, X, ArrowUpRight } from 'lucide-react';
+import { Search, Store, Coffee, Shirt, Wrench, Sparkles, Car, HeartPulse, GraduationCap, Music, Camera, BookOpen, Plane, Dumbbell, Flower, Building2, BedDouble, Bus, ShoppingCart, Croissant, Pill, PawPrint, Box, Laptop, Utensils, Home, X, ArrowUpRight } from 'lucide-react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
@@ -119,12 +119,12 @@ const mockBusinesses = [
   },
   {
     id: 13,
-    name: 'Publica tu Negocio',
-    category: 'Restaurantes',
-    city: 'Florida',
+    name: 'LILÉ',
+    category: 'Hogar',
+    city: 'Bogotá',
     logoUrl: '/images/negocios/publicatunegocio.png',
-    description: 'TUKU Express es la WEB donde descubres emprendimientos Colombianos por Ciudad/Categoría y entras directo a sus páginas web.',
-    websiteUrl: 'https://wa.me/3225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
+    description: 'Te ofrecemos una gran variedad de productos para la cama como juegos de sábanas y de duvet, en micro-fibra fina y algodón, cobijas confeccionadas en una suave piel de conejo sintética, plumones, almohadas y muchos mas productos.',
+    websiteUrl: 'https://casalile.com/',
   },
   {
     id: 14,
@@ -161,6 +161,7 @@ const categories = [
   { name: 'Panaderías', icon: Croissant },
   { name: 'Tiendas de Ropa', icon: Shirt },
   { name: 'Servicios', icon: Wrench },
+  { name: 'Hogar', icon: Home },
   { name: 'Tecnología', icon: Laptop },
   { name: 'Artesanías', icon: Sparkles },
   { name: 'Turismo', icon: Plane },
