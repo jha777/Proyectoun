@@ -138,7 +138,7 @@ const mockBusinesses = [
   {
     id: 15,
     name: 'La Tienda de la Plateria',
-    category: 'Salud y Belleza',
+    category: 'Joyerías',
     city: 'Medellín',
     logoUrl: '/images/negocios/plateria.png',
     description: '•Mayorista •Minorista°• Envíos locales y nacionales',
