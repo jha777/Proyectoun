@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { Search, Store, Coffee, Shirt, Wrench, Sparkles, Car, HeartPulse, GraduationCap, Music, Camera, BookOpen, Plane, Dumbbell, Flower, Building2, BedDouble, Bus, ShoppingCart, Croissant, Pill, PawPrint, Box, Laptop, Utensils, Home, X, ArrowUpRight } from 'lucide-react';
+import { Search, Store, Coffee, Shirt, Wrench, Sparkles, Car, HeartPulse, GraduationCap, Music, Camera, BookOpen, Plane, Dumbbell, Flower, Building2, BedDouble, Bus, ShoppingCart, Croissant, Pill, PawPrint, Box, Laptop, Utensils, Home, Sparkles, X, ArrowUpRight } from 'lucide-react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
@@ -137,12 +137,12 @@ const mockBusinesses = [
   },
   {
     id: 15,
-    name: 'Publica tu Negocio',
+    name: 'La Tienda de la Plateria',
     category: 'Salud y Belleza',
-    city: 'Florida',
-    logoUrl: '/images/negocios/publicatunegocio.png',
-    description: 'TUKU Express es la WEB donde descubres emprendimientos Colombianos por Ciudad/Categoría y entras directo a sus páginas web.',
-    websiteUrl: 'https://wa.me/3225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
+    city: 'Medellín',
+    logoUrl: '/images/negocios/plateria.png',
+    description: '•Mayorista •Minorista°• Envíos locales y nacionales',
+    websiteUrl: 'https://www.latiendadelaplateria.com/',
   },
   {
     id: 16,
@@ -164,6 +164,7 @@ const categories = [
   { name: 'Hogar', icon: Home },
   { name: 'Tecnología', icon: Laptop },
   { name: 'Artesanías', icon: Sparkles },
+  { name: 'Joyerías', icon: Sparkles },
   { name: 'Turismo', icon: Plane },
   { name: 'Markets', icon: ShoppingCart },
   { name: 'Hoteles', icon: BedDouble },
