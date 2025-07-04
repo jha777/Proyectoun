@@ -122,7 +122,7 @@ const mockBusinesses = [
     name: 'LILÉ',
     category: 'Hogar',
     city: 'Bogotá',
-    logoUrl: '/images/negocios/publicatunegocio.png',
+    logoUrl: '/images/negocios/lile.png',
     description: 'Te ofrecemos una gran variedad de productos para la cama como juegos de sábanas y de duvet, en micro-fibra fina y algodón, cobijas confeccionadas en una suave piel de conejo sintética, plumones, almohadas y muchos mas productos.',
     websiteUrl: 'https://casalile.com/',
   },
