@@ -128,12 +128,12 @@ const mockBusinesses = [
   },
   {
     id: 14,
-    name: 'Publica tu Negocio',
-    category: 'Tecnología',
-    city: 'Florida',
-    logoUrl: '/images/negocios/publicatunegocio.png',
-    description: 'TUKU Express es la WEB donde descubres emprendimientos Colombianos por Ciudad/Categoría y entras directo a sus páginas web.',
-    websiteUrl: 'https://wa.me/3225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
+    name: 'Multi Packing',
+    category: 'Otros',
+    city: 'Bogotá',
+    logoUrl: '/images/negocios/multipack.png',
+    description: 'Empresa dedicada a la fabricación de productos plásticos y metálicos, que brindan soluciones en organización y logística industrial.',
+    websiteUrl: 'https://www.multi-packing.com.co/',
   },
   {
     id: 15,
