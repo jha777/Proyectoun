@@ -6,7 +6,7 @@ import 'swiper/css';
 import 'swiper/css/autoplay';
 import { Autoplay } from 'swiper/modules';
 
-const cities = ['Todas', 'Florida', 'Cali', 'Miranda', 'Medellín', 'Palmira', 'Candelaria', 'Villagorgona', 'Bucaramanga',];
+const cities = ['Todas', 'Florida', 'Cali', 'Miranda', 'Medellín', 'Palmira', 'Candelaria', 'Villagorgona', 'Bucaramanga', 'Bogotá',];
 // --- MOCK DATA: Simula los negocios que obtendrías de tu base de datos ---
 const mockBusinesses = [
   {
@@ -110,12 +110,12 @@ const mockBusinesses = [
   },
   {
     id: 12,
-    name: 'Publica tu Negocio',
-    category: 'Markets',
-    city: 'Florida',
-    logoUrl: '/images/negocios/publicatunegocio.png',
-    description: 'TUKU Express es la WEB donde descubres emprendimientos Colombianos por Ciudad/Categoría y entras directo a sus páginas web.',
-    websiteUrl: 'https://wa.me/3225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
+    name: 'GOSS Accesorios',
+    category: 'Mascotas',
+    city: 'Bogotá',
+    logoUrl: '/images/negocios/gossacce.png',
+    description: 'Accesorios para el adiestramiento de tu mascota y mucho mas.',
+    websiteUrl: 'https://www.gossaccesorios.com/',
   },
   {
     id: 13,
