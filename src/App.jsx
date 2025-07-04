@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { Search, Store, Coffee, Shirt, Wrench, Sparkles, Car, HeartPulse, GraduationCap, Music, Camera, BookOpen, Plane, Dumbbell, Flower, Building2, BedDouble, Bus, ShoppingCart, Croissant, Pill, PawPrint, Box, Laptop, Utensils, Home, Sparkles, X, ArrowUpRight } from 'lucide-react';
+import { Search, Store, Coffee, Shirt, Wrench, Sparkles, Car, HeartPulse, GraduationCap, Music, Camera, BookOpen, Plane, Dumbbell, Flower, Building2, BedDouble, Bus, ShoppingCart, Croissant, Pill, PawPrint, Box, Laptop, Utensils, Home, Gem, X, ArrowUpRight } from 'lucide-react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
@@ -164,7 +164,7 @@ const categories = [
   { name: 'Hogar', icon: Home },
   { name: 'Tecnología', icon: Laptop },
   { name: 'Artesanías', icon: Sparkles },
-  { name: 'Joyerías', icon: Sparkles },
+  { name: 'Joyerías', icon: Gem },
   { name: 'Turismo', icon: Plane },
   { name: 'Markets', icon: ShoppingCart },
   { name: 'Hoteles', icon: BedDouble },
