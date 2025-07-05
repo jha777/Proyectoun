@@ -150,7 +150,7 @@ const mockBusinesses = [
     category: 'Hoteles',
     city: 'Medellín',
     logoUrl: '/images/negocios/hotelpoblado.png',
-    description: 'Ubicado en el corazón de la ciudad de Medellín, el Hotel Poblado Alejandría es la mejor elección para hospedarte y sentirte como en casa. Somos la extensión de Hoteles Poblado, una marca reconocida por su trayectoria y excelente servicio.',
+    description: 'Ubicado en el corazón de la ciudad de Medellín, el Hotel Poblado Alejandría es la mejor elección para hospedarte y sentirte como en casa.',
     websiteUrl: 'https://hotelpobladoalejandria.com/',
   },
   {
