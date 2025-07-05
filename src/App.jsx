@@ -160,7 +160,7 @@ const mockBusinesses = [
     city: 'Florida',
     logoUrl: '/images/negocios/publicatunegocio.png',
     description: 'TUKU Express es la WEB donde descubres emprendimientos Colombianos por Ciudad/Categoría y entras directo a sus páginas web.',
-    websiteUrl: 'https://wa.me/3225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
+    websiteUrl: 'https://wa.me/573225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
   },
   {
     id: 18,
@@ -169,7 +169,7 @@ const mockBusinesses = [
     city: 'Florida',
     logoUrl: '/images/negocios/publicatunegocio.png',
     description: 'TUKU Express es la WEB donde descubres emprendimientos Colombianos por Ciudad/Categoría y entras directo a sus páginas web.',
-    websiteUrl: 'https://wa.me/3225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
+    websiteUrl: 'https://wa.me/573225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
   },
   {
     id: 19,
@@ -178,7 +178,7 @@ const mockBusinesses = [
     city: 'Florida',
     logoUrl: '/images/negocios/publicatunegocio.png',
     description: 'TUKU Express es la WEB donde descubres emprendimientos Colombianos por Ciudad/Categoría y entras directo a sus páginas web.',
-    websiteUrl: 'https://wa.me/3225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
+    websiteUrl: 'https://wa.me/573225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
   },
   {
     id: 20,
@@ -187,7 +187,7 @@ const mockBusinesses = [
     city: 'Florida',
     logoUrl: '/images/negocios/publicatunegocio.png',
     description: 'TUKU Express es la WEB donde descubres emprendimientos Colombianos por Ciudad/Categoría y entras directo a sus páginas web.',
-    websiteUrl: 'https://wa.me/3225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
+    websiteUrl: 'https://wa.me/573225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
   },
 ];
 
