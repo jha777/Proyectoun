@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { Search, Store, Coffee, Shirt, Wrench, Sparkles, Car, HeartPulse, GraduationCap, Music, Camera, BookOpen, Plane, Dumbbell, Flower, Building2, BedDouble, Bus, ShoppingCart, Croissant, Pill, PawPrint, Box, Laptop, Utensils, Home, Gem, X, ArrowUpRight } from 'lucide-react';
+import { Search, Store, Coffee, Shirt, Wrench, Sparkles, Car, HeartPulse, GraduationCap, Music, Camera, BookOpen, Plane, Dumbbell, Flower, Building2, BedDouble, Bus, ShoppingCart, Croissant, Pill, PawPrint, Box, Laptop, Utensils, Home, Gem, Bike, X, ArrowUpRight } from 'lucide-react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
@@ -200,12 +200,12 @@ const mockBusinesses = [
   },
   {
     id: 22,
-    name: 'Publica tu Negocio',
-    category: 'Servicios',
-    city: 'Florida',
-    logoUrl: '/images/negocios/publicatunegocio.png',
-    description: 'TUKU Express es la WEB donde descubres emprendimientos Colombianos por Ciudad/Categoría y entras directo a sus páginas web.',
-    websiteUrl: 'https://wa.me/573225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
+    name: 'ZonaBiker Cascos, Llantas y Accesorios ',
+    category: 'Motos',
+    city: 'Bucaramanga',
+    logoUrl: '/images/negocios/zonabiker.png',
+    description: '📍ZONABIKER LA 21📍- 📦Envíos a toda Colombia📦',
+    websiteUrl: 'https://zonabiker.com.co/',
   },
   {
     id: 23,
@@ -254,6 +254,7 @@ const categories = [
   { name: 'Spa', icon: Flower },
   { name: 'Mascotas', icon: PawPrint },
   { name: 'Automotriz', icon: Car },
+  { name: 'Motos', icon: Bike },
   { name: 'Transporte', icon: Bus },
   { name: 'Inmobiliarias', icon: Building2 },
   { name: 'Educación', icon: GraduationCap },
