@@ -191,12 +191,12 @@ const mockBusinesses = [
   },
   {
     id: 21,
-    name: 'Publica tu Negocio',
-    category: 'Educación',
+    name: 'AnimalPez Colombia',
+    category: 'Tiendas de Ropa',
     city: 'Medellín',
-    logoUrl: '/images/negocios/publicatunegocio.png',
-    description: 'TUKU Express es la WEB donde descubres emprendimientos Colombianos por Ciudad/Categoría y entras directo a sus páginas web.',
-    websiteUrl: 'https://wa.me/573225212078?text=Hola,%20quiero%20Publicar%20mi%20Negocio',
+    logoUrl: '/images/negocios/animalpez.png',
+    description: '🔥 Indumentaria para Deportes al aire libre ✈Importador 🐍Carnadas de Pesca 📲Tienda Virtual',
+    websiteUrl: 'https://animalpez.com/',
   },
   {
     id: 22,
