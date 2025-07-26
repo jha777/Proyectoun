@@ -389,7 +389,7 @@ export default function App() {
           </div>
     
           <a
-            href="https://wa.me/573225212078?text=Hola,%20me%20interesa%20publicar%20mi%20emprendimiento%20en%20TukuExpress"
+            href="https://www.jefftech.store/Registro"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-2 sm:mt-0 bg-blue-700 text-white px-4 py-2 rounded-lg font-semibold hover:bg-indigo-700 transition-colors"
