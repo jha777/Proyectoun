@@ -14,7 +14,7 @@ const mockBusinesses = [
     name: 'KAMPFER Streaming',
     category: 'Entretenimiento',
     city: 'Cali',
-    logoUrl: '/images/negocios/kampferuno.png',
+    logoUrl: '/images/negocios/logokamfers.png',
     description: 'KAMPFER Streaming te conecta con tus plataformas favoritas de forma segura, económica y sin complicaciones. Suscripciones 100% estables, soporte personalizado y acceso inmediato al mejor entretenimiento.',
     websiteUrl: 'https://kampferstreaming.shop/',
   },
@@ -407,7 +407,7 @@ export default function App() {
       >
         <SwiperSlide>
           <a
-            href="https://wa.me/573225212078?text=Hola,%20me%20interesa%20publicar%20mi%20emprendimiento%20en%20TukuExpress"
+            href="https://www.jefftech.store/Registro"
             target="_blank"
             rel="noopener noreferrer"
           >
