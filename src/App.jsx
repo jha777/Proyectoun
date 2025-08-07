@@ -34,7 +34,7 @@ const mockBusinesses = [
     city: 'Florida',
     logoUrl: '/images/negocios/logojefftech.png',
     description: 'Tu socio estratégico para la transformación digital. Creamos páginas web, tiendas online y soluciones de software a medida para que tu negocio crezca en el mundo digital.',
-    websiteUrl: 'https://jefftech.store/',
+    websiteUrl: 'https://wa.me/573225212078',
   },
   {
     id: 4,
@@ -500,7 +500,7 @@ export default function App() {
         <p className="text-sm">
           &copy; {new Date().getFullYear()} TukuExpress por{' '}
           <a
-            href="https://jefftech.store"
+            href="https://wa.me/573225212078"
             target="_blank"
             rel="noopener noreferrer"
             className="underline hover:text-indigo-200 font-semibold"
