@@ -389,7 +389,7 @@ export default function App() {
           </div>
     
           <a
-            href="https://www.jefftech.store/Registro"
+            href="https://wa.me/573116596456"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-2 sm:mt-0 bg-blue-700 text-white px-4 py-2 rounded-lg font-semibold hover:bg-indigo-700 transition-colors"
@@ -407,7 +407,7 @@ export default function App() {
       >
         <SwiperSlide>
           <a
-            href="https://www.jefftech.store/Registro"
+            href="https://wa.me/573116596456"
             target="_blank"
             rel="noopener noreferrer"
           >
