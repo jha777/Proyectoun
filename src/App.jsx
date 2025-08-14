@@ -403,7 +403,7 @@ export default function App() {
         modules={[Autoplay]}
         autoplay={{ delay: 4000 }}
         loop
-        className="w-full aspect-[3/1] sm:aspect-[4/1] md:aspect-[5/1] lg:aspect-[6/1] xl:aspect-[3/1] rounded-lg overflow-hidden"
+        className="w-full rounded-lg overflow-hidden"
       >
         <SwiperSlide>
           <a
@@ -412,9 +412,22 @@ export default function App() {
             rel="noopener noreferrer"
           >
             <img
-              src="/images/bannertukuuno.png" // Usa aquí la imagen que subiste o coloca tu propia ruta
+              src="/images/bannertukudos.png" // Usa aquí la imagen que subiste o coloca tu propia ruta
               alt="Publica tu negocio en este espacio"
-              className="w-full h-auto object-cover"
+              className="w-full h-auto object-contain"
+            />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a
+            href="https://wa.me/573225212078"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/images/bannerjeffte.png" // Usa aquí la imagen que subiste o coloca tu propia ruta
+              alt="Publica tu negocio en este espacio"
+              className="w-full h-auto object-contain"
             />
           </a>
         </SwiperSlide>
