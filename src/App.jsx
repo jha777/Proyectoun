@@ -405,6 +405,26 @@ export default function App() {
   const [selectedBusiness, setSelectedBusiness] = React.useState(null);
   const [selectedCity, setSelectedCity] = React.useState('Todas');
   
+  const [showScrollAd, setShowScrollAd] = React.useState(false);
+  
+  React.useEffect(() => {
+    // Usamos sessionStorage para "por visita" (se reinicia cuando cierras la pestaña)
+    const seen = sessionStorage.getItem('tukuScrollAdSeen') === 'true';
+    if (seen) return;
+  
+    const onScroll = () => {
+      if (window.scrollY > 300) {
+        setShowScrollAd(true);
+        sessionStorage.setItem('tukuScrollAdSeen', 'true');
+        window.removeEventListener('scroll', onScroll);
+      }
+    };
+  
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+  
+  const closeScrollAd = () => setShowScrollAd(false);
 
   const filteredBusinesses = mockBusinesses.filter(business => {
     const matchesCategory = selectedCategory === 'Todos' || business.category === selectedCategory;
@@ -603,6 +623,49 @@ export default function App() {
           </a>. Todos los derechos reservados.
         </p>
       </footer>
+
+      {/* --- Ventana emergente al hacer scroll (una vez por visita) --- */}
+      {showScrollAd && (
+        <div className="fixed inset-0 z-[60] flex items-end sm:items-center justify-center p-4">
+          {/* Capa para cerrar al hacer click fuera */}
+          <div className="absolute inset-0 bg-black/50" onClick={closeScrollAd}></div>
+      
+          <div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-sm sm:max-w-md p-5">
+            <button
+              onClick={closeScrollAd}
+              className="absolute top-2 right-2 text-gray-500 hover:text-black p-1 rounded"
+              aria-label="Cerrar anuncio"
+            >
+              <X size={18} />
+            </button>
+      
+            <div className="flex items-start gap-3">
+              <img
+                src="/images/logo.png"
+                alt="TukuExpress"
+                className="w-10 h-10 rounded-lg object-contain"
+              />
+              <div>
+                <h3 className="text-lg sm:text-xl font-bold text-gray-900">¡Publica tu negocio en TUKU Express!</h3>
+                <p className="text-sm text-gray-600 mt-1">
+                  Aparece en nuestra vitrina digital y llega a más clientes en Colombia y el Mundo.
+                </p>
+              </div>
+            </div>
+      
+            <a
+              href="https://wa.me/573116596456?text=Hola%20quiero%20Publicar%20mi%20negocio%20en%20TukuExpress"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={closeScrollAd}
+              className="mt-4 w-full inline-flex items-center justify-center rounded-lg bg-blue-700 text-white font-semibold py-3 hover:bg-indigo-700 transition-colors"
+            >
+              Publicar mi negocio
+              <ArrowUpRight size={18} className="ml-2" />
+            </a>
+          </div>
+        </div>
+      )}
 
       {/* --- Modal --- */}
       <BusinessModal business={selectedBusiness} onClose={() => setSelectedBusiness(null)} />
